@@ -1,0 +1,27 @@
+[project]
+name = "spisaloveo"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Artur",email = "pe4kahd@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "dependency-injector (>=4.48.1,<5.0.0)",
+    "pydantic (>=2.11.7,<3.0.0)",
+    "pydantic-settings (>=2.10.1,<3.0.0)",
+    "colorlog (>=6.9.0,<7.0.0)",
+    "sqlalchemy (>=2.0.41,<3.0.0)",
+    "fastapi (>=0.116.0,<0.117.0)",
+    "uvicorn (>=0.35.0,<0.36.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.12.2"
+
