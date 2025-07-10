@@ -1,7 +1,6 @@
 from sqlalchemy import Column, String, Boolean, ForeignKey, Integer, LargeBinary
 from sqlalchemy.dialects.postgresql import UUID
 from sqlalchemy.orm import relationship
-import uuid
 
 from .base import AbstractModel
 
