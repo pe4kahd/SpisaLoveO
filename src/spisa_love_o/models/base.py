@@ -25,3 +25,4 @@ class AbstractModel(Base):
     deleted_at = Column(DateTime(timezone=True), nullable=True)
 
     __abstract__ = True
+
