@@ -20,7 +20,7 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 's
 # add your model's MetaData object here
 # for 'autogenerate' support
 from spisa_love_o.models.base import Base
-import spisa_love_o.models.models
+from spisa_love_o.models import user, product, faculty, institution, product_faculty, product_file, product_access, product_institution, product_specialty, product_subject, review, speciality, subject, subject_speciality
 
 
 target_metadata = Base.metadata
